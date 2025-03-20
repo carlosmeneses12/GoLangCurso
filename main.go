@@ -1,16 +1,20 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/GoLangEcomerce/ejercicios"
 )
 
 func main() {
+	ejercicios.Multiplicar()
+}
+
+/*iteraciones.Iterar()
+
+{
 	numero, texto := ejercicios.ConvertiraEntero("600")
 	fmt.Println(numero)
 	fmt.Println(texto)
-}
+}*/
 
 /*
 
