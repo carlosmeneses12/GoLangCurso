@@ -3,11 +3,25 @@ package main
 import (
 	"fmt"
 
-	"github.com/GoLangEcomerce/variables"
+	"github.com/GoLangEcomerce/ejercicios"
 )
 
 func main() {
-	estado, texto := variables.ConviertoaTexto(5943)
-	fmt.Println(estado)
+	numero, texto := ejercicios.ConvertiraEntero("600")
+	fmt.Println(numero)
 	fmt.Println(texto)
 }
+
+/*
+
+	if os := runtime.GOOS; os == "Linux." || os == "OS X." {
+	fmt.Println("esto no es windows esto es ", os)
+
+	{ else {
+	fmt.Println("esto es windows")
+
+	}
+
+	estado, _ := ejercicios.ConvertiraEntero("34")
+	fmt.Println(estado)
+*/
