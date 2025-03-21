@@ -1,13 +1,25 @@
 package main
 
 import (
-	"github.com/GoLangEcomerce/files"
+	"github.com/GoLangEcomerce/mapas"
 )
 
 func main() {
-	files.LeoArchivo()
+	mapas.MostrarMapas()
 }
 
+//arreglosslices.Capacidad()
+//arreglosslices.MuestroSlice()
+//arreglosslices.NuestroArreglo()
+//funciones.Exponencia(2)
+//funciones.LlamarClosure()
+/*
+	funciones.Calculos()
+}*/
+
+/*
+	files.LeoArchivo()
+}
 /*{
 	files.SumaTabla()
 }*/
