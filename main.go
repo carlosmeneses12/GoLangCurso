@@ -1,13 +1,22 @@
 package main
 
 import (
-	"github.com/GoLangEcomerce/ejercicios"
+	"github.com/GoLangEcomerce/files"
 )
 
 func main() {
-	ejercicios.Multiplicar()
+	files.LeoArchivo()
 }
 
+/*{
+	files.SumaTabla()
+}*/
+
+/*{
+	files.GrabaTabla()
+}*/
+
+/*ejercicios.Multiplicar()
 /*iteraciones.Iterar()
 
 {
