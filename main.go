@@ -1,13 +1,15 @@
 package main
 
 import (
-	"github.com/GoLangEcomerce/mapas"
+	"github.com/GoLangEcomerce/Users"
 )
 
 func main() {
-	mapas.MostrarMapas()
+	Users.AltaUsuario()
+
 }
 
+//mapas.MostrarMapas()
 //arreglosslices.Capacidad()
 //arreglosslices.MuestroSlice()
 //arreglosslices.NuestroArreglo()
