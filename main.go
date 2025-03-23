@@ -1,14 +1,22 @@
 package main
 
 import (
-	"github.com/GoLangEcomerce/Users"
+	"github.com/GoLangEcomerce/differ"
 )
 
 func main() {
-	Users.AltaUsuario()
-
+	differ.EjemploPanic()
 }
 
+/*func main() {
+	Pedro := new(models.Hombre)
+	e.HumanosRespirando(Pedro)
+
+	Maria := new(models.Mujer)
+	e.HumanosRespirando(Maria)
+}*/
+
+//Users.AltaUsuario()
 //mapas.MostrarMapas()
 //arreglosslices.Capacidad()
 //arreglosslices.MuestroSlice()
