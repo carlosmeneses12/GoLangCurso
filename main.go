@@ -1,11 +1,19 @@
 package main
 
 import (
-	"github.com/GoLangEcomerce/differ"
+	"github.com/GoLangEcomerce/webserver"
 )
 
 func main() {
-	differ.EjemploPanic()
+
+	//middleware.MiMiddleware()
+	webserver.IniciarWeb()
+	/*canal1 := make(chan bool)
+	go gorutines.MinombreLento("Charles", canal1)
+	fmt.Println("Que aburrimiento")
+
+	<-canal1*/
+
 }
 
 /*func main() {

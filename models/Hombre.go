@@ -13,5 +13,4 @@ type Hombre struct {
 func (h *Hombre) Respirar()    { h.respirando = true }
 func (h *Hombre) Comer()       { h.comimendo = true }
 func (h *Hombre) Pensar()      { h.pensando = true }
-func (h *Hombre) Estavivo()    { h.vivo = true }
 func (h *Hombre) Sexo() string { return "hombre" }

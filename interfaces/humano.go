@@ -5,4 +5,5 @@ type Humano interface { //solo para definir funciones
 	Pensar()
 	Comer()
 	Sexo() string
+	EstaVivo() bool
 }
